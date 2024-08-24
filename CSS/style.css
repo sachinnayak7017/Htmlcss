@@ -1,0 +1,198 @@
+ /* h1{
+    color:brown;
+    background-color:#ffff00;
+    
+}
+p{
+    color:rgb(24, 233, 17);
+
+ 
+}
+body{
+    background-color:black;
+}
+#come {
+color: aqua;
+background-color: blueviolet;
+}
+#sachin {
+    color: rgb(19, 206, 75);
+    background-color: rgb(10, 152, 196);
+    }
+ .paragraph{
+        color: darkmagenta;
+        background-color: honeydew;
+    } 
+    #box{
+        background-color: blue;
+    }
+    .heading{
+        color: red;
+    }
+    button{
+        color: green;
+    } */
+/* p{
+    text-align:start;
+}
+ h1{
+    text-align: center;
+    text-decoration:  blue dotted underline;
+} 
+a{
+    text-decoration: none;
+    color: brown;
+}
+ #h1{
+font-weight: normal;
+}
+#h2{
+    font-weight: bold;
+    }
+#h3{
+     font-weight: bolder;
+     }
+ #h4{
+     font-weight: lighter;
+      } 
+      #one{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 23px;
+        line-height: 23px;
+        text-transform: uppercase;
+       }   */
+      /* ////////////////////////////// leval 2*/
+
+     
+       /* h1{
+        height: 100px;
+        width:200px;
+        background-color: aqua;
+         /* border-width: 3px;
+        border-style: dotted;
+        border-color: brown;  
+        border: 5px dotted rgb(241, 10, 10);
+      text-align: center;
+      
+      }  */
+
+       /* div{
+         padding: 25px; 
+     
+         padding-left: 20px;
+        padding-top: 30px; 
+        height: 100px;
+        width:100px;
+         /* background-color: rgb(9, 209, 19);  
+        border-width: 3px;
+        border-style: solid;
+        border-color: brown;   
+        border-radius: 15px;
+        border-radius: 50%;
+      }  */
+      /* #one{
+        padding: 25px;
+        
+         background-color: rgb(16, 21, 22); 
+         height: 500px;
+         width:200px;
+          border-width: 3px;
+        border-style: solid;
+        border-color: brown; 
+        border-radius: 15px;
+        
+      }
+.two{
+    padding: 25px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+} */
+/* div{
+   width: 100px;
+   height: 100px;
+   margin: 25px;
+   padding: 25px;
+   /* display: inline; */
+   /* display: inline-block; */
+/* } */
+/* #box2{
+    display: none;  remove element  form display
+    visibility: hidden; visivility hidden but space reserve
+/* }  */
+/* #box1{
+    height: 100px;
+    width: 150px;
+    background-color: green;
+    font-size: 10px;
+}
+#box2{
+    height: 50px;
+    width: 50%;
+    margin: 10%;
+    background-color: yellow;
+    font-size: 2em;
+    width: 5rem;
+} */
+/* ///////////////level3 */
+  div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+    
+} 
+body{
+   text-align: center;
+}
+ #box1{
+    position: static;
+    background-image: url("image.png");
+    background-size: cover;
+    /* background-size: contain; */
+      /* background-repeat: no-repeat;   */
+}
+#box2{
+    position: relative;
+     top: 20px;
+    left: 20px;
+     z-index: 1; 
+    }
+#box3{
+    position: absolute;
+    left: 250px;
+}
+#box4{
+    position: fixed;
+    left: 540px;
+}  
+#box5{
+    position: sticky;
+    top: 100px;
+    left: 400px;
+} 
+ /* body{
+    text-align: center;
+ }
+ #container{
+    width: 500px;
+    height: 600px;
+    border: 2px solid black;
+    display: flex;
+     flex-direction: row; /* if you want to manage the element position so you can use this property aboue and below  */
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+/* align-items: center; */
+  /* } 
+ div{
+    height: 50px;
+    width: 150px;
+display: inline-block;
+border: 2px solid black;
+    
+} 
+
+  #box1{
+  flex-shrink: 2; 
+}  */ 

@@ -1,0 +1,99 @@
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    color: black;
+    border: 2px solid red;
+     border-radius: 50%; 
+     position: absolute;
+    top: 100px;
+    left: 200px; 
+
+    transition-property: all;
+    transition-duration: 2s;
+    /* transition-timing-function: steps(5); */
+     /* transition-timing-function: ease-in;  ease-out /linear/steps */
+     /* transition-delay: 1s; */
+      /* transition:all 2s linear 0s; */
+
+      /* /////////////////////////2D and 3D Transition rotate/////////// */
+      /* transform: rotate(45deg); */
+ 
+      /* ///////////////////////// scale size increse and decerise /////////////////// */
+         /* transform: scale(2); */
+         /* transform: scale(2,1); */
+         /* transform: scaleY(2); */
+
+       /* //////////////////// translate////////////   */
+           /* transform: translate(20px); */
+           transform: translateX(120px);
+           /* transform: translate(120px ,300px); */
+           /* transform: translateY(120px); */
+
+        /* /////////////////////skew kone se move karna  /////////////    */
+        /* transform: skew(90deg); */
+
+        /* ///////////////////Animation/////////////// */
+         /* animation-name: colorAnimate;
+         animation-duration: 3s;
+         animation-timing-function: ease-in;
+         animation-delay: 0s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate; /* ////////////have more  property//////////* */
+         /* animation: colorAnimate 4s ease-in 0s infinite normal; */
+  
+
+/* } */
+/* @keyframes colorAnimate{
+    from{ left: 0px; 
+    background-color: blue;
+    }
+    to {left: 300px;
+    background-color: bisque;
+}
+} */
+/* @keyframes colorAnimate{
+    0% { left: 0px; 
+    background-color: blue;
+    }
+    50% {left: 300px;
+        background-color: bisque;
+        font-size: 20px;
+        color: red;
+    }
+    100%{left: 600px;
+    background-color: rgb(7, 223, 25);
+}
+} */
+
+/* div:hover{
+    /* background-color: brown; */
+    /* color: white; */
+    /* font-size: 2em; */
+    /* transform: translate(120px ,300px); */
+    /* transform: skew(90deg); */
+/* } */ 
+
+/* div:active{
+    background-color: rgb(73, 212, 30);
+    color: rgb(88, 28, 138);
+} */
+
+.loader{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 20px solid #cbd62d;
+    border-top: 20px solid rgb(24, 187, 236);
+    animation: spinAnimate 3s ease-in 0s infinite normal;
+}
+
+@keyframes spinAnimate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

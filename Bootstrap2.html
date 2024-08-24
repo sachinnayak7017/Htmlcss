@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Icoder - Hreaven for program</title>
+  </head>
+  <body>
+  
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">iCoder</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Topic
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Technology</a></li>
+                  <li><a class="dropdown-item" href="#">Web Development</a></li>
+                  <li>
+                      <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Support</a></li>
+                  <li><a class="dropdown-item" href="#">Write for Us</a></li>
+              </ul>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contact Us</a>
+            </li>
+        
+          
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="book1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Welcome to iCoder</h5>
+            <P>Technology News, Development and trend</p>
+              <botton class="btn btn-danger">Technology</botton>
+              <botton class="btn btn-primary">Web Development</botton>
+              <botton class="btn btn-success">Tech fun</botton>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="data:image/jpeg;base64,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" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Welcome to iCoder</h5>
+            <P>Technology News, Development and trend</p>
+              <botton class="btn btn-danger">Technology</botton>
+              <botton class="btn btn-primary">Web Development</botton>
+              <botton class="btn btn-success">Tech fun</botton>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1555057918-9aadd809fb71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dGhlJTIwc291cmNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>The Best Coding  blog</h5>
+            <P>Technology News, Development and trend</p>
+              <botton class="btn btn-danger">Technology</botton>
+              <botton class="btn btn-primary">Web Development</botton>
+              <botton class="btn btn-success">Tech fun</botton>
+
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="row mb-2 my-4 mx-5">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">World</strong>
+            <h3 class="mb-0">Coding  glober</h3>
+            <div class="mb-1 text-body-secondary">Nov 12</div>
+            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+     <img class="bd-placeholder-img" width="200" height="250" src="\book12.jfif" alt="image not founde">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Design</strong>
+            <h3 class="mb-0">Post title</h3>
+            <div class="mb-1 text-body-secondary">Nov 11</div>
+            <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="book11.jfif" alt="image not founde">
+           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-2 my-4 mx-5">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">World</strong>
+            <h3 class="mb-0">Coding  glober</h3>
+            <div class="mb-1 text-body-secondary">Nov 12</div>
+            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+     <img class="bd-placeholder-img" width="200" height="250" src="\download.jfif" alt="image not founde">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Design</strong>
+            <h3 class="mb-0">Post title</h3>
+            <div class="mb-1 text-body-secondary">Nov 11</div>
+            <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="book12.jfif" alt="image not founde">
+           </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
